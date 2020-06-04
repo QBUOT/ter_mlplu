@@ -82,7 +82,6 @@ void detruire_partition(Partition *part)
 		free(tmp);
 		tmp = part->Lsommet;
 	}
-	//free(part);
 }
 
 void detruire_tournee(Tournee *tourn)
@@ -94,7 +93,6 @@ void detruire_tournee(Tournee *tourn)
 		free(tmp);
 		tmp = tourn->Lsommet;
 	}
-	//free(tourn);
 }
 
 void partitionner(Partition **parttab, Vecteur* vecttab ,int N, int k)
